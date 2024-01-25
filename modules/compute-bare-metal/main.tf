@@ -76,11 +76,6 @@ resource "ibm_compute_bare_metal" "quote_bms_id" {
   #user_metadata   = ""
   #tags = []
 
-  //User can increase timeouts
-  timeouts {
-    create = "72h"
-  }
-
 
 }
 
